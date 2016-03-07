@@ -5,7 +5,7 @@
     "authors"         : [
         "Kay Peikert <admin@michael-brecker.com>"
     ],
-    "description"     : "Empty skeleton setup to use with whatever framework / code library you like. Branches will offer more specific skeletons",
+    "description"     : "Skeleton setup (including underscore + jQuery) to use with whatever framework / code library you like. Branches will offer more specific skeletons",
     "moduleType"      : [
         "amd",
         "es6",
@@ -21,9 +21,13 @@
         "tests"
     ],
     "dependencies"    : {
-        "requirejs" : "~2.1.22"
+        "requirejs"  : "~2.1.22",
+        "jquery"     : "~2.2.1",
+        "underscore" : "~1.8.3"
     },
     "devDependencies" : {
-        "requirejs" : "~2.1.22"
+        "requirejs"  : "~2.1.22",
+        "jquery"     : "~2.2.1",
+        "underscore" : "~1.8.3"
     }
 }

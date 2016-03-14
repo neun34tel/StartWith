@@ -1,0 +1,23 @@
+{
+  "name": "StartWith",
+  "version": "1.0.0",
+  "description": "Here, you'll find setups for various projects. E.g. AngularJS, Backbone / Marionette, etc. I'll share what I once needed to start for your benefit",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neun34tel/StartWith.git"
+  },
+  "author": "Kay Peikert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neun34tel/StartWith/issues"
+  },
+  "homepage": "https://github.com/neun34tel/StartWith",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
+  }
+}

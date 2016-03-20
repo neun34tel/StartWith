@@ -3,9 +3,11 @@
  */
 require( 'jquery' );
 console.log( 'app.js, Model definition' );
-module.exports = Backbone.Model.extend( {
+var app = Backbone.Model.extend( {
     defaults : {
         name : 'Kay',
         lastName : 'Peikert'
     }
 } );
+
+module.exports = app;

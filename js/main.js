@@ -1,4 +1,7 @@
 /**
  * This is the main entry point of the application
  */
-//var $ = require( 'jQuery' );
+console.log( 'Starting...' );
+var $   = require( 'jQuery' );
+var app = require( './app' );
+console.log( 'app', app );
